@@ -24,9 +24,9 @@ Loan          | has personal loan?
 contact       | contact communication type 
 month         | last conact month of the year 
 poutcome      | outcome of previous marketing campaign 
-y             | client subscribed to term deposit or not(binary resopnse)
+y             | client subscribed to term deposit or not(binary response)
 
-Here, y is response variable and the rest are predicto variables. Logistic regression is used because the response is binary and predictor variables are quantitative and categorical 
+Here, y is response variable and the rest are predictor variables. Logistic regression is used because the response is binary and predictor variables are quantitative and categorical 
 
 Data Cleaning and manipulation 
 
