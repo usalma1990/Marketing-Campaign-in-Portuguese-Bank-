@@ -47,3 +47,17 @@ Multicolinearity
 
 For detecting multicollinearity, Correlation plot and Variance Inflation factor tests are used. From the plots it can be observed that there is no significant correlation of any predictor variable with response except for duration. All the predictor variables have VIF less than 5. Hence no multicollinearity exists. 
 
+Interaction plots 
+The interaction between various independent variables can be determined using interaction plots. Parallel liner=s represent no interaction
+
+Model Validation 
+Using train test split, the model has been split into 80%  train and 20% test data. It can be observed that most of the variables will have very high p value(p>0.05), hence they are not useful predictors. 
+
+Stepwise regression 
+It involves selection of independent variables to be used in the final model. 
+
+Full model omparison(with and without interaction)
+Based on the results of likelihood ratio test and wald test, it can be observed that model without interaction is a better model for prediction 
+
+Classification report 
+The quality of the predictions can be measured using classification report to measure the proportion of the observations that has been correctly classified 
